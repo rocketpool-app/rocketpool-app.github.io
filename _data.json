@@ -1,0 +1,107 @@
+{
+ "keyword": "rocketpool",
+ "h1": "Rocketpool",
+ "brand": "Rocket Pool",
+ "niche": "swap",
+ "verb": "Stake",
+ "title": "Rocketpool - Open App",
+ "meta_description": "rocketpool official route for ETH to rETH liquid staking: open the app, verify the domain, and review wallet prompts before you proceed.",
+ "palette": {
+  "mode": "dark",
+  "bg": "#0B1026",
+  "accent": "#FF6B2B",
+  "ink": "#FFFFFF"
+ },
+ "hero_h2": "Swap ETH into liquid staking exposure",
+ "hero_lead": "rocketpool routes ETH holders to the official Rocket Pool app for staking into rETH while keeping the experience wallet-first, domain-aware, and focused on Ethereum mainnet.",
+ "badge": "Ethereum",
+ "widget": {
+  "from": "ETH",
+  "from_net": "Ethereum",
+  "to": "rETH",
+  "to_net": "Ethereum",
+  "action": "Open Rocket Pool App"
+ },
+ "trust": [
+  "Official app: stake.rocketpool.net",
+  "Ethereum liquid staking",
+  "rETH ERC-20 token"
+ ],
+ "what_is": "Rocket Pool is a decentralized Ethereum liquid staking protocol for staking ETH and receiving rETH, with official guides published in the <a href=\"https://docs.rocketpool.net/\">Rocket Pool documentation</a>.",
+ "how": [
+  {
+   "t": "Open the app",
+   "d": "Use the official staking interface and confirm the browser domain is stake.rocketpool.net before connecting a wallet."
+  },
+  {
+   "t": "Connect wallet",
+   "d": "Choose an Ethereum wallet you control and make sure it is on Ethereum mainnet."
+  },
+  {
+   "t": "Enter ETH amount",
+   "d": "Review the rETH output, gas estimate, and wallet transaction details before submitting."
+  },
+  {
+   "t": "Track rETH",
+   "d": "After confirmation, check the rETH token in your wallet or on a trusted Ethereum explorer."
+  }
+ ],
+ "points": [
+  {
+   "h": "Built for liquid staking",
+   "p": "The core flow is ETH to rETH, so it fits users who want staking exposure without running a validator."
+  },
+  {
+   "h": "Verify the token",
+   "p": "The rETH ERC-20 contract can be checked on <a href=\"https://etherscan.io/token/0xae78736cd615f374d3085123a210448e74fc6393\">Etherscan</a> before adding or interacting with the asset."
+  },
+  {
+   "h": "Know the context",
+   "p": "Liquid staking uses Ethereum staking mechanics and carries protocol, smart contract, market, and wallet execution risks."
+  }
+ ],
+ "eeat": [
+  {
+   "text": "Rocket Pool documentation",
+   "url": "https://docs.rocketpool.net/"
+  },
+  {
+   "text": "Ethereum staking",
+   "url": "https://ethereum.org/staking/"
+  },
+  {
+   "text": "rETH on Etherscan",
+   "url": "https://etherscan.io/token/0xae78736cd615f374d3085123a210448e74fc6393"
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is rocketpool used for?",
+   "a": "rocketpool is commonly used to stake ETH through Rocket Pool and receive rETH, a liquid staking token for Ethereum DeFi use cases.",
+   "open": true
+  },
+  {
+   "q": "Is rocketpool a swap app?",
+   "a": "rocketpool is not a generic DEX; the app's main ETH-to-rETH flow is a staking action that can feel swap-like because users exchange ETH exposure for rETH exposure.",
+   "open": false
+  },
+  {
+   "q": "What is the official rocketpool app URL?",
+   "a": "The official app route is <a href=\"https://stake.rocketpool.net/\">https://stake.rocketpool.net/</a>; verify the domain before connecting a wallet.",
+   "open": false
+  },
+  {
+   "q": "Which network does rocketpool use?",
+   "a": "Rocket Pool is built around Ethereum staking, and the main rETH token is an ERC-20 on Ethereum mainnet.",
+   "open": false
+  },
+  {
+   "q": "Does rocketpool guarantee returns?",
+   "a": "No. Rewards, exchange rates, liquidity, and risks can change, so review the official docs and wallet transaction details before acting.",
+   "open": false
+  }
+ ],
+ "official_url": "https://stake.rocketpool.net/",
+ "official_domain": "stake.rocketpool.net",
+ "footer_note": "Not the official Rocket Pool app; verify stake.rocketpool.net before connecting a wallet; educational only, not financial advice."
+}

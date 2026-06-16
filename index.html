@@ -1,11 +1,268 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0;url=https://crypto-swap.us/">
-  <script>
-    location.replace("https://crypto-swap.us/");
-  </script>
-</head>
-<body></body>
-</html>
+<!DOCTYPE html>
+<html dir="ltr" lang="en"><head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Rocket Pool — ETH Liquid Staking</title>
+<meta content="Rocket Pool is a non-custodial ETH Liquid Staking. Open the app and stake ETH from your own wallet." name="description"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/>
+<link href="https://rocketpool-app.github.io/" rel="canonical"/>
+<link href="https://rocketpool-app.github.io/" hreflang="en" rel="alternate"/><link href="https://rocketpool-app.github.io/" hreflang="x-default" rel="alternate"/>
+<meta content="#0F0B08" name="theme-color"/>
+<meta content="website" property="og:type"/><meta content="Rocket Pool — ETH Liquid Staking" property="og:title"/><meta content="Rocket Pool is a non-custodial ETH Liquid Staking. Open the app and stake ETH from your own wallet." property="og:description"/>
+<meta content="https://rocketpool-app.github.io/" property="og:url"/><meta content="https://rocketpool-app.github.io/og-cover.png" property="og:image"/><meta content="en" property="og:locale"/>
+<meta content="summary_large_image" name="twitter:card"/><meta content="Rocket Pool — ETH Liquid Staking" name="twitter:title"/><meta content="Rocket Pool is a non-custodial ETH Liquid Staking. Open the app and stake ETH from your own wallet." name="twitter:description"/><meta content="https://rocketpool-app.github.io/og-cover.png" name="twitter:image"/>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/><link href="site.webmanifest" rel="manifest"/><link href="static/icon-180.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="static/style.css" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://rocketpool-app.github.io/#website",
+      "url": "https://rocketpool-app.github.io/",
+      "name": "Rocket Pool"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rocketpool-app.github.io/#webpage",
+      "url": "https://rocketpool-app.github.io/",
+      "name": "Rocket Pool — ETH Liquid Staking",
+      "description": "Rocket Pool is a non-custodial ETH Liquid Staking. Open the app and stake ETH from your own wallet.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://rocketpool-app.github.io/#website"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://rocketpool-app.github.io/#org",
+      "name": "Rocket Pool",
+      "url": "https://rocketpool-app.github.io/",
+      "logo": "https://rocketpool-app.github.io/og-cover.png"
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://rocketpool-app.github.io/#app",
+      "name": "Rocket Pool",
+      "url": "https://rocketpool-app.github.io/",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "browserRequirements": "Requires JavaScript",
+      "description": "Rocket Pool is a non-custodial ETH Liquid Staking. Open the app and stake ETH from your own wallet.",
+      "featureList": [
+        "ETH Liquid Staking",
+        "Stake ETH, keep your custody"
+      ],
+      "isPartOf": {
+        "@id": "https://rocketpool-app.github.io/#website"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rocketpool-app.github.io/#faq",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is rocketpool the official Rocket Pool app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. This page is an independent guide to Rocket Pool, not the official app or a wallet connection flow. Use the official Rocket Pool website and documentation when you need current routes, contract links or operator instructions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is rETH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "rETH is Rocket Pool's liquid staking token for ETH stakers. It represents ETH deposited into the protocol plus staking rewards through Rocket Pool's exchange-rate accounting. It can also trade on markets, where price may differ from protocol value. The Rocket Pool liquid staking overview explains the model."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to run a node to use Rocket Pool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Liquid stakers can use rETH without running validator infrastructure. Running a Rocket Pool node is a separate operator route for users who can maintain Ethereum clients, keys and uptime. Review the official node staking installation overview before considering that path."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What changed with Saturn 1?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saturn 1 introduced Rocket Pool's megapool model and updated operator economics, so older minipool guides may not describe the current route for new operators. The official Saturn 1 documentation is the safer reference for current node staking mechanics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I always redeem rETH directly for ETH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Direct protocol redemption depends on available liquidity and current protocol conditions; market exits depend on swap liquidity and pricing. This is separate from Ethereum validator withdrawal mechanics. Rocket Pool's direct staking route guide explains protocol and swap routing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Rocket Pool staking have risk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Risks include smart-contract bugs, governance changes, oracle assumptions, validator penalties, rETH liquidity, market pricing, RPL exposure for operators and wallet phishing. Ethereum's rewards and penalties documentation is useful for understanding validator-level risk."
+          }
+        }
+      ]
+    }
+  ]
+}</script></head>
+<body>
+<header class="site-header">
+<a aria-label="Rocket Pool" class="brand" href="#top">
+<svg aria-hidden="true" class="brand-mark" viewbox="0 0 32 32"><defs><lineargradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#FAD2B7"></stop><stop offset=".5" stop-color="#ED9A5F"></stop><stop offset="1" stop-color="#C55F16"></stop></lineargradient></defs><g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"><circle cx="13" cy="13" r="6.2"></circle><circle cx="20" cy="20" r="6.2"></circle></g></svg>
+<h1>Rocket Pool</h1>
+</a>
+<nav aria-label="Primary" class="site-nav"><ul class="nav-list"><li><a href="#how-it-works">How it works</a></li><li><a href="#reth-node-staking">Reth node staking</a></li><li><a href="#fees-security">Fees security</a></li><li><a href="#routes">Routes</a></li><li><a href="#checks">Checks</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+<span class="header-spacer"></span>
+<a class="cta cta-primary header-cta" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open Rocket Pool</a>
+<button aria-expanded="false" aria-label="Menu" class="nav-toggle"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+</header>
+<main id="top">
+<section class="hero"><div class="container"><div class="hero-grid">
+<div class="hero-copy">
+<h2 class="hero-title">Stake ETH, keep your custody</h2>
+<p class="lead">Stake ETH through <strong>Rocket Pool</strong> with a clear view of rETH, node operators, liquidity and smart-contract risk.</p>
+<div class="hero-cta-row"><a class="cta cta-primary" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open Rocket Pool ↗</a><a class="cta cta-secondary" href="#what-is">Learn more</a></div>
+<p class="hero-note">Live preview — open Rocket Pool to stake.</p><div class="trust-row"><span class="trust-chip">On-chain</span><span class="trust-chip">Non-custodial</span></div>
+</div>
+<div class="hero-widget">
+<div aria-hidden="true" class="floating-coins"></div>
+<div class="swap-widget" id="app-widget">
+<div class="swap-widget-head"><span>Stake</span><span class="badge">Staking</span></div>
+<div class="swap-row"><div class="swap-col"><span class="swap-label">From</span><span class="swap-amount">1.00</span></div><span class="token-chip" data-slot="from"><span class="token-icon-morph"><img alt="ETH" class="" decoding="async" height="28" loading="lazy" src="eth.png" width="28"/></span><span class="token-ticker">ETH</span></span></div>
+<div class="swap-flip-wrap"><button aria-label="Switch" class="swap-flip" type="button"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M7 4v16M7 20l-3-3M7 4l3 3M17 20V4M17 4l3 3M17 20l-3-3"></path></svg></button></div>
+<div class="swap-row"><div class="swap-col"><span class="swap-label">To</span><span class="swap-amount">~1.00</span></div><span class="token-chip" data-slot="to"><span class="token-icon-morph"><img alt="rETH" class="" decoding="async" height="28" loading="lazy" src="reth.png" width="28"/></span><span class="token-ticker">rETH</span></span></div>
+<a class="cta cta-primary swap-now-main" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open Rocket Pool ↗</a>
+<p class="swap-note">Preview — open Rocket Pool to stake.</p>
+</div>
+</div>
+</div></div></section>
+<section class="section section-alt" id="what-is"><div class="container"><h2>What is Rocket Pool?</h2><div class="capsule"><strong>Rocket Pool</strong> is a decentralized Ethereum staking protocol for people who want liquid staking through rETH and for operators who want to run Ethereum validators through the protocol. ETH stakers receive rETH, while node operators provide bonded ETH, run validator infrastructure and may use RPL for governance and protocol incentives. The official <a href="https://docs.rocketpool.net/" rel="noopener noreferrer">Rocket Pool documentation</a> is the best starting point for current mechanics.</div></div></section>
+<section class="section section-alt" id="how-it-works">
+<div class="container"><h2>How Rocket Pool works</h2><p class="section-intro">Rocket Pool connects liquid stakers with independent node operators, then routes validator rewards through protocol accounting.</p>
+<ol class="steps"><li><strong>Choose a route</strong><span>Liquid stakers exchange ETH for rETH, while node operators run Rocket Pool smart nodes and provide bonded ETH for validators.</span></li><li><strong>Review liquidity</strong><span>rETH can be acquired or exited through the protocol route when liquidity is available, or through supported markets with market pricing.</span></li><li><strong>Confirm onchain actions</strong><span>Wallet approvals and transactions happen on Ethereum or supported routes, with costs driven by network gas and the chosen execution path.</span></li><li><strong>Track exits and rewards</strong><span>rETH value reflects protocol accounting over time, while node operator rewards and exits depend on validator performance and protocol processes.</span></li></ol>
+</div>
+</section>
+<section class="section" id="reth-node-staking">
+<div class="container"><h2>rETH and node staking</h2><p class="section-intro">The two main user paths have different work, liquidity and risk profiles.</p>
+<div class="cards three"><article class="card"><h3>rETH for liquid stakers</h3><p>rETH is Rocket Pool's liquid staking token. The docs explain that rETH represents deposited ETH plus protocol staking rewards through an exchange-rate model, not a rebasing wallet balance. See the <a href="https://docs.rocketpool.net/liquid-staking/overview" rel="noopener noreferrer">liquid staking overview</a>.</p></article><article class="card"><h3>Megapools for operators</h3><p>Rocket Pool's Saturn 1 docs describe megapools as the newer validator structure for node operators, reducing the bonded ETH required per validator and improving operational efficiency. Read the <a href="https://docs.rocketpool.net/upgrades/saturn-1/whats-new" rel="noopener noreferrer">Saturn 1 overview</a> before comparing older minipool content.</p></article><article class="card"><h3>RPL and governance</h3><p>RPL is part of Rocket Pool governance and node-operator economics, including revenue-share mechanics described in the current upgrade docs. Treat RPL exposure as a separate token risk, not just a staking setting.</p></article></div>
+</div>
+</section>
+<section class="section section-alt" id="fees-security">
+<div class="container"><h2>Fees, security and withdrawals</h2><p class="section-intro">Rocket Pool is non-custodial at the protocol level, but that does not remove contract, liquidity, validator or market risk.</p>
+<div class="cards three"><article class="card"><h3>Cost components</h3><p>Costs can include Ethereum gas, wallet approval costs, protocol route components, swap spread, market slippage and any costs tied to node operation. Avoid assuming one fixed fee.</p></article><article class="card"><h3>Security model</h3><p>Rocket Pool relies on Ethereum validators, smart contracts, node operators, governance and oracle-related processes. The official site emphasizes transparent contracts and audits, but audits do not eliminate risk; see <a href="https://rocketpool.net/protocol/why-rocket-pool" rel="noopener noreferrer">Rocket Pool's protocol page</a>.</p></article><article class="card"><h3>Exit mechanics</h3><p>Exiting rETH through Rocket Pool depends on protocol liquidity, while market exits depend on secondary-market pricing. Ethereum validator exits have their own queue mechanics, explained in <a href="https://ethereum.org/en/staking/withdrawals/" rel="noopener noreferrer">Ethereum.org's withdrawal guide</a>.</p></article></div>
+</div>
+</section>
+<section class="section" id="routes">
+<div class="container">
+<h2>Rocket Pool Routes</h2>
+<p class="section-intro">Start with the route, because it determines whether you are holding rETH or operating validator infrastructure.</p>
+<div class="coin-grid">
+<article class="coin-card featured">
+<div class="coin-card-head"><img alt="rETH" class="coin-icon" decoding="async" height="40" loading="lazy" src="reth.png" width="40"/>
+<div><h3>Liquid Staking</h3><p class="coin-sub">Stake ETH for rETH <span class="tag">Token</span></p></div>
+</div>
+<p class="coin-intent">Use Rocket Pool's liquid staking path to receive rETH without running a validator. You still take smart-contract, liquidity and market-pricing risk.</p>
+<a class="cta cta-mini swap-now" data-icon="reth.png" data-ticker="rETH" href="https://docs.rocketpool.net/liquid-staking/overview" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><img alt="ETH" class="coin-icon" decoding="async" height="40" loading="lazy" src="eth.png" width="40"/>
+<div><h3>Protocol Route</h3><p class="coin-sub">Direct ETH to rETH flow <span class="tag">Direct</span></p></div>
+</div>
+<p class="coin-intent">Interact with Rocket Pool's staking interface and contracts when protocol liquidity supports the route. Check wallet prompts and the current route shown before signing.</p>
+<a class="cta cta-mini swap-now" data-icon="eth.png" data-ticker="ETH" href="https://docs.rocketpool.net/liquid-staking/via-rp" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">DEX</span>
+<div><h3>Market Route</h3><p class="coin-sub">Swap into or out of rETH <span class="tag">Market</span></p></div>
+</div>
+<p class="coin-intent">Use supported markets when a swap is preferable to protocol redemption. Price, spread and liquidity can differ from the protocol exchange rate.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="DEX" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">NODE</span>
+<div><h3>Node Staking</h3><p class="coin-sub">Run validator infrastructure <span class="tag">Operator</span></p></div>
+</div>
+<p class="coin-intent">Operate a Rocket Pool smart node if you can maintain Ethereum clients, uptime and keys. Operator economics depend on protocol settings and validator performance.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="NODE" href="https://docs.rocketpool.net/node-staking/installing/overview" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">MP</span>
+<div><h3>Megapools</h3><p class="coin-sub">Saturn-era validator model <span class="tag">Saturn</span></p></div>
+</div>
+<p class="coin-intent">Megapools are the current operator structure introduced with Saturn 1. Compare them with legacy minipool references before acting on older guides.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="MP" href="https://docs.rocketpool.net/upgrades/saturn-1/whats-new" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+</div>
+</div>
+</section>
+<section class="section section-alt" id="checks">
+<div class="container">
+<h2>Checks Before Using Rocket Pool</h2>
+<p class="section-intro">A careful review should focus on domain, liquidity, route type and the risk you are actually taking.</p>
+<div class="coin-grid">
+<article class="coin-card featured">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">URL</span>
+<div><h3>Official Domain</h3><p class="coin-sub">Verify before connecting <span class="tag">Safety</span></p></div>
+</div>
+<p class="coin-intent">Use a bookmarked official Rocket Pool site or docs page. Phishing risk is separate from protocol risk and shows up before the transaction is signed.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="URL" href="https://sushlswap.net/" rel="noopener noreferrer" target="_blank">Open ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><img alt="rETH" class="coin-icon" decoding="async" height="40" loading="lazy" src="reth.png" width="40"/>
+<div><h3>rETH Liquidity</h3><p class="coin-sub">Check exit depth <span class="tag">Exit</span></p></div>
+</div>
+<p class="coin-intent">Protocol redemption and market swaps are different exits. Thin liquidity or market discounts can matter if you need to unwind quickly.</p>
+<a class="cta cta-mini swap-now" data-icon="reth.png" data-ticker="rETH" href="https://docs.rocketpool.net/liquid-staking/via-rp" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">OPS</span>
+<div><h3>Operator Duties</h3><p class="coin-sub">Infrastructure matters <span class="tag">Node</span></p></div>
+</div>
+<p class="coin-intent">Node operators need a secured machine, Ethereum clients, a wallet setup and ongoing maintenance. Poor operations can affect rewards and penalties.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="OPS" href="https://docs.rocketpool.net/node-staking/platform" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><img alt="RPL" class="coin-icon" decoding="async" height="40" loading="lazy" src="rpl.png" width="40"/>
+<div><h3>RPL Exposure</h3><p class="coin-sub">Separate token risk <span class="tag">Token</span></p></div>
+</div>
+<p class="coin-intent">RPL can affect governance and operator revenue mechanics. Its price and protocol role are separate from holding rETH.</p>
+<a class="cta cta-mini swap-now" data-icon="rpl.png" data-ticker="RPL" href="https://docs.rocketpool.net/upgrades/saturn-1/whats-new" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+<article class="coin-card">
+<div class="coin-card-head"><span aria-hidden="true" class="coin-icon coin-fallback">EXIT</span>
+<div><h3>Ethereum Queues</h3><p class="coin-sub">Plan timing <span class="tag">Timing</span></p></div>
+</div>
+<p class="coin-intent">Validator activation and exits depend on Ethereum network mechanics. Do not treat staking-related exits like a normal token transfer.</p>
+<a class="cta cta-mini swap-now" data-icon="" data-ticker="EXIT" href="https://ethereum.org/en/staking/withdrawals/" rel="noopener noreferrer" target="_blank">Docs ↗</a>
+</article>
+</div>
+</div>
+</section>
+<section class="section" id="compare"><div class="container"><h2>Rocket Pool Compared</h2><p class="section-intro">Rocket Pool sits between solo validation and account-based staking: it uses Ethereum validators like any staking route, but adds rETH, node operators and protocol contracts. Compare the base model with <a href="https://ethereum.org/en/staking/" rel="noopener noreferrer">Ethereum.org's staking overview</a>.</p>
+<div class="table-wrap"><table class="compare-table"><thead><tr><th>Route</th><th>Best fit</th><th>Main tradeoff</th></tr></thead><tbody><tr><td>Rocket Pool rETH</td><td>Liquid staking without node operation</td><td>Smart-contract, liquidity and rETH market risk</td></tr><tr><td>Rocket Pool node</td><td>Operators who can run infrastructure</td><td>Operational work plus protocol-specific economics</td></tr><tr><td>Solo validator</td><td>Maximum direct control</td><td>Higher ETH requirement and full maintenance burden</td></tr><tr><td>Exchange staking</td><td>Account-based convenience</td><td>Custody, platform terms and regional availability</td></tr></tbody></table></div></div></section>
+<section class="section" id="faq"><div class="container"><h2>Rocket Pool FAQ</h2><div class="faq-list">
+<details open=""><summary><h3>Is Rocket Pool the official Rocket Pool app?</h3></summary><div>No. This page is an independent guide to Rocket Pool, not the official app or a wallet connection flow. Use the official <a href="https://rocketpool.net/" rel="noopener noreferrer">Rocket Pool website</a> and documentation when you need current routes, contract links or operator instructions.</div></details>
+<details open=""><summary><h3>What is rETH?</h3></summary><div>rETH is Rocket Pool's liquid staking token for ETH stakers. It represents ETH deposited into the protocol plus staking rewards through Rocket Pool's exchange-rate accounting. It can also trade on markets, where price may differ from protocol value. The <a href="https://docs.rocketpool.net/liquid-staking/overview" rel="noopener noreferrer">Rocket Pool liquid staking overview</a> explains the model.</div></details>
+<details><summary><h3>Do I need to run a node to use Rocket Pool?</h3></summary><div>No. Liquid stakers can use rETH without running validator infrastructure. Running a Rocket Pool node is a separate operator route for users who can maintain Ethereum clients, keys and uptime. Review the official <a href="https://docs.rocketpool.net/node-staking/installing/overview" rel="noopener noreferrer">node staking installation overview</a> before considering that path.</div></details>
+<details><summary><h3>What changed with Saturn 1?</h3></summary><div>Saturn 1 introduced Rocket Pool's megapool model and updated operator economics, so older minipool guides may not describe the current route for new operators. The official <a href="https://docs.rocketpool.net/upgrades/saturn-1/whats-new" rel="noopener noreferrer">Saturn 1 documentation</a> is the safer reference for current node staking mechanics.</div></details>
+<details><summary><h3>Can I always redeem rETH directly for ETH?</h3></summary><div>No. Direct protocol redemption depends on available liquidity and current protocol conditions; market exits depend on swap liquidity and pricing. This is separate from Ethereum validator withdrawal mechanics. Rocket Pool's <a href="https://docs.rocketpool.net/liquid-staking/via-rp" rel="noopener noreferrer">direct staking route guide</a> explains protocol and swap routing.</div></details>
+<details><summary><h3>Does Rocket Pool staking have risk?</h3></summary><div>Yes. Risks include smart-contract bugs, governance changes, oracle assumptions, validator penalties, rETH liquidity, market pricing, RPL exposure for operators and wallet phishing. Ethereum's <a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/" rel="noopener noreferrer">rewards and penalties</a> documentation is useful for understanding validator-level risk.</div></details>
+</div></div></section>
+</main>
+<footer class="site-footer"><div class="container">
+<nav aria-label="Footer" class="footer-nav"><a href="#how-it-works">How it works</a><a href="#reth-node-staking">Reth node staking</a><a href="#fees-security">Fees security</a><a href="#routes">Routes</a><a href="#checks">Checks</a><a href="#faq">FAQ</a></nav>
+<p class="footer-note">Not the official Rocket Pool app — verify the domain before connecting a wallet. Information on this page is for educational purposes only and is not financial advice.</p>
+<p class="footer-meta"><a href="#top">Back to top ↑</a></p>
+</div></footer>
+<script defer="" src="static/app.js"></script>
+</body></html>
